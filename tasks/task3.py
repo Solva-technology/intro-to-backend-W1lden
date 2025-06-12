@@ -1,3 +1,4 @@
 def reverse_string(string: str) -> str:
-    # Верните строку s в обратном порядке
-    return None
+    reverted_string = list(string)
+    reverted_string.reverse()
+    return "".join(reverted_string)
